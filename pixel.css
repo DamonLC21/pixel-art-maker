@@ -1,0 +1,77 @@
+
+.container {
+    text-align: center;
+    background-color: rgb(202, 39, 39) ;
+    width: 960px;
+    height: 800px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+table {
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.cell {
+    background-color: white; 
+    width:5px;
+    height:5px;
+    margin: -2px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+h2 {
+    margin-top:-30px;
+    margin-right:-40px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+#colorPicker {
+    margin-left: 20px;
+}
+
+
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+#spin {
+    border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, grey 100%, black 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, white, rgb(143, 142, 142));
+	background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, grey 100%, darkgrey 95%);
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
+
+.circle{
+    margin-left:30px;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666,inset 0 -8px 1px rgba(0,0,0,0.5), inset 0 5px 1px rgba(255,255,255,0.8); 
+    
+}
+
+.circle2 { 
+    margin-left:770px;
+    margin-top:-159px;
+    box-shadow: 0 1px 2px #fff, 0 -1px 1px #666,inset 0 -8px 1px rgba(0,0,0,0.5), inset 0 5px 1px rgba(255,255,255,0.8); 
+}
